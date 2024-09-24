@@ -15,7 +15,7 @@ chance = 10
 while chance > 0:
     fail = 0
 
-    # Showing the player the current word with correct guesses and underscores
+    # Showing the player the current word with correct guesses and underscores.
     display_word = ""
     for char in word:
         if char in guesses:
